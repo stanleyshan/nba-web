@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { TopNavBar } from './TopNavBar';
+import { Main } from './Main';
 import '../styles/App.css';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <TopNavBar/>
+          <Main/>
       </div>
     );
   }
